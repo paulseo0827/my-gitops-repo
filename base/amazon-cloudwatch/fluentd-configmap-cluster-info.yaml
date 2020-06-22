@@ -1,14 +1,14 @@
 ---
 apiVersion: v1
 data:
-  cluster.name: eks-public1
+  cluster.name: eks-public
   logs.region: ap-northeast-1
   # The below configuration file is in JSON format.
   # Please ensure you keep it well-formed if you modify it.
   cluster-info.json: |
     {
       "cluster": {
-        "name": "eks-public1"
+        "name": "eks-public"
       },
       "logs": {
         "region": "ap-northeast-1"
